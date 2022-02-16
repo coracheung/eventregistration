@@ -1,4 +1,4 @@
-package ca.mcgill.ecse321.eventregistration;
+package ca.mcgill.ecse321.EventRegistration;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.SpringApplication;
@@ -12,7 +12,8 @@ public class EventRegistrationBackendApplication {
   public static void main(String[] args) {
     SpringApplication.run(EventRegistrationBackendApplication.class, args);
   }
-  //Request Map
+
+  //Request Mapfd
   @RequestMapping("/")
   public String greeting(){
     return "Hello world!";
